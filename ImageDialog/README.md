@@ -16,9 +16,11 @@ Simple cross platform plugin to popup a dialog with a title (optional) and an im
 
 
 ### API Usage
+```C#
 var imageDialogService = DependencyService.Get<IImageDialog>();
 await imageDialogService.Display("My Image", ImageSource.FromFile("icon.png"));
 await imageDialogService.Display(ImageSource.FromFile("icon.png"));
+```
 
 #### Contributors
 * [Johan du Toit](https://github.com/Johan-dutoit)
