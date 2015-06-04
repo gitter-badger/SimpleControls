@@ -3,8 +3,12 @@
 Simple cross platform plugin to popup a dialog with a title (optional) and an image.
 
 ### Setup
-* Available on NuGet: http://www.nuget.org/packages/SimpleControls.ImageDialogs
+* Available on NuGet: https://www.nuget.org/packages/SimpleControls.ImageDialogs/
 * Install into your PCL project and Client projects.
+
+```
+install-package SimpleControls.ImageDialogs
+```
 
 **Supports**
 * Xamarin.Android
